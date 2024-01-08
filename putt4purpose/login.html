@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/login.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style//login.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="login d-flex">
+      <img
+        class="loginImg d-lg-block d-none"
+        src="./assets/loginLeft.svg"
+        alt="login"
+      />
+      <div class="LoginContent position-relative">
+        <div class="posDiv h-100 position-absolute right-0 pt-5">
+          <div class="loginForm mt-2">
+            <div class="tabs">
+              <ul class="nav nav-tabs" id="myTab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link active"
+                    id="home-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#home-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="home-tab-pane"
+                    aria-selected="true"
+                  >
+                    <p>Login</p>
+                  </button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button
+                    class="nav-link"
+                    id="profile-tab"
+                    data-bs-toggle="tab"
+                    data-bs-target="#profile-tab-pane"
+                    type="button"
+                    role="tab"
+                    aria-controls="profile-tab-pane"
+                    aria-selected="false"
+                  >
+                    <p>Signup</p>
+                  </button>
+                </li>
+              </ul>
+              <div class="tab-content" id="myTabContent">
+                <div
+                  class="tab-pane fade show active"
+                  id="home-tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="home-tab"
+                  tabindex="0"
+                >
+                  <div class="pt-3 pt-xxl-4 h-100">
+                    <h2 class="text-uppercase fw-bold text-welcome p-0 m-0">
+                      Welcome
+                    </h2>
+                    <h3
+                      style="letter-spacing: 0.06em"
+                      class="text-uppercase fw-bold text-LoginTo p-0 m-0"
+                    >
+                      Please login to your account
+                    </h3>
+                    <div class="mt-2 mt-xxl-3">
+                      <div>
+                        <p class="fw-light fw-normal input-label">
+                          Username or Email
+                        </p>
+                      </div>
+                      <input class="input" type="text" />
+                    </div>
+                    <div class="mt-2 mt-xxl-3">
+                      <div>
+                        <p class="fw-light fw-normal input-label">Password</p>
+                      </div>
+                      <div class="position-relative">
+                        <input class="input" type="text" />
+                        <img
+                          class="position-absolute top-50 passwordEye"
+                          src="./assets/eye.svg"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                    <div class="mt-2 d-flex justify-content-end">
+                      <p class="forgetPass">Forget Password</p>
+                    </div>
+                    <div class="d-flex justify-content-end mt-3 mt-xxl-3">
+                      <button
+                        type="button"
+                        class="btn btn-primary btn-login d-flex justify-content-between align-items-center ps-3 pe-1"
+                      >
+                        <span class="fw-semibold">Login</span>
+                        <img
+                          class="icon-btn"
+                          src="./assets/iconButton.svg"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                    <p
+                      class="position-absolute bottom-0 left-0 policy-text m-0 w-100"
+                    >
+                      Terms and Conditions & Privacy Policy
+                    </p>
+                  </div>
+                </div>
+                <div
+                  class="tab-pane fade"
+                  id="profile-tab-pane"
+                  role="tabpanel"
+                  aria-labelledby="profile-tab"
+                  tabindex="0"
+                >
+                  <div class="pt-3 pt-xxl-4 h-100">
+                    <h2 class="text-uppercase fw-bold text-welcome p-0 m-0">
+                      Welcome
+                    </h2>
+                    <h3 class="text-uppercase fw-bold text-LoginTo p-0 m-0">
+                      Please signup to your account
+                    </h3>
+                  </div>
+                  <div class="d-flex gap-lg-3 flex-wrap flex-lg-nowrap">
+                    <div class="mt-2 w-100 w-lg-50">
+                      <p class="fw-light fw-normal input-label">Name</p>
+                      <input class="input" type="text" />
+                    </div>
+                    <div class="mt-2 w-100 w-lg-50">
+                      <p class="fw-light fw-normal input-label">Email</p>
+                      <input class="input" type="text" />
+                    </div>
+                  </div>
+                  <div class="d-flex gap-lg-3 flex-wrap flex-lg-nowrap">
+                    <div class="mt-2 w-100 w-lg-50">
+                      <p class="fw-light p-0 m-1 fw-normal input-label">
+                        Phone
+                      </p>
+                      <input class="input" type="text" />
+                    </div>
+                    <div class="mt-2 w-100 w-lg-50">
+                      <p class="fw-light p-0 m-1 fw-normal input-label">
+                        Select items
+                      </p>
+                      <input class="input" type="text" />
+                    </div>
+                  </div>
+                  <div class="mt-2 w-100">
+                    <p class="fw-light p-0 m-1 fw-normal input-label">
+                      Address
+                    </p>
+                    <input class="input" type="text" />
+                  </div>
+                  <div class="mt-2 w-100">
+                    <p class="fw-light p-0 m-1 fw-normal input-label">
+                      Description
+                    </p>
+                    <textarea
+                      class="textarea w-100 rounded"
+                      name=""
+                      id=""
+                      cols="10"
+                      rows="3"
+                    ></textarea>
+                  </div>
+                  <!-- <div class="mt-2 d-flex justify-content-end">
+                    <p class="forgetPass">Already have an account? Log in</p>
+                  </div> -->
+                  <div class="d-flex justify-content-end mt-3">
+                    <button
+                      type="button"
+                      class="btn btn-primary btn-login d-flex justify-content-between align-items-center ps-3 pe-1"
+                    >
+                      <span class="fw-semibold">Volunteer sign up</span>
+                      <img
+                        class="icon-btn"
+                        src="./assets/iconButton.svg"
+                        alt=""
+                      />
+                    </button>
+                    <p
+                      class="position-absolute bottom-0 left-0 policy-text m-0"
+                    >
+                      Terms and Conditions & Privacy Policy
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

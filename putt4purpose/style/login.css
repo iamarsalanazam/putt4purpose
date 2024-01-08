@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@300;400&family=Smooch+Sans&display=swap");
+
+.login {
+  height: 100vh;
+}
+
+.loginImgCont {
+  height: 100%;
+  width: 50%;
+}
+
+.loginImg {
+  width: 60%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.LoginContent {
+  width: 40%;
+  border-radius: 33px 0px 0px 39px;
+}
+
+.loginCont {
+  width: 105%;
+  height: 100%;
+  background: #ffffff;
+  right: 0;
+  border-radius: 12px;
+}
+
+.loginForm {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nav-tabs {
+  border-bottom: 0px solid transparent !important;
+}
+
+.nav-tabs .nav-link {
+  height: 45px !important;
+  width: 100px !important;
+  border-radius: 50px !important;
+  border: 0px solid transparent !important;
+  color: #414141 !important;
+}
+
+.nav-tabs .nav-link p {
+  font-weight: 600 !important;
+}
+
+.nav-tabs .nav-link:hover {
+  border: 0px solid transparent !important;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active {
+  color: white !important;
+  background: #3367d6 !important;
+  border-color: transparent !important;
+  height: 45px !important;
+  width: 100px !important;
+  border-radius: 50px;
+}
+
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active p {
+  font-weight: 700 !important;
+}
+
+.text-welcome {
+  color: #323232;
+}
+
+.text-LoginTo {
+  color: #3367d6;
+  letter-spacing: 0.04em;
+  font-family: "Smooch Sans", sans-serif;
+}
+
+.input-label {
+  color: #c3c3c3;
+}
+
+.input {
+  background: #f4f4f4;
+  border: 0;
+  width: 100%;
+  height: 37px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 8px 0px #cacaca2e;
+}
+
+.input:focus {
+  border: 0px !important;
+  outline: 0 !important;
+}
+
+.passwordEye {
+  right: 10px;
+  transform: translateY(-50%);
+}
+
+.forgetPass {
+  font-size: 14px;
+  font-weight: 400;
+  color: #007aff;
+}
+
+.btn-login {
+  height: 40px;
+  width: 200px;
+  border-radius: 50px !important;
+}
+
+.policy-text {
+  width: 100%;
+  left: 50% !important;
+  text-align: center;
+  transform: translateX(-50%);
+  color: #c3c3c3;
+}
+
+.icon-btn {
+  height: 28px;
+}
+
+.textarea {
+  width: 100%;
+  background: #f4f4f4;
+  border: 0;
+  resize: none;
+}
+
+.textarea:focus {
+  border: 0px !important;
+  outline: 0 !important;
+}
+
+.posDiv {
+  width: 108%;
+  right: 0;
+  background-color: white;
+  border-radius: 33px 0px 0px 39px;
+}
+
+/* @media(min-width:10) */
+@media (max-width: 991.98px) {
+  .LoginContent {
+    width: 80%;
+    margin: 0 auto;
+  }
+}

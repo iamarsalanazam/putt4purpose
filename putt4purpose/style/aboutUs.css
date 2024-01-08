@@ -1,0 +1,190 @@
+.cardCont {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+}
+
+.aboutCardCont {
+  background-color: white;
+}
+
+.card-about {
+  width: 45%;
+  box-shadow: 0px 4px 24px 0px #afafaf40;
+  border: 1px solid transparent;
+  border-radius: 8px;
+}
+
+.img-cont {
+  height: 350px;
+  width: 100%;
+}
+
+.paraText {
+  font-size: 14px;
+  color: #6e6e6e;
+  font-weight: 600;
+}
+
+.text-cont {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.textHead {
+  color: #1b1717;
+  font-weight: 900;
+  font-size: 20px;
+}
+
+.card-about:hover {
+  border: 1px solid #3367d6;
+}
+
+.textMiniHead {
+  font-size: 14px;
+  font-weight: 900;
+  letter-spacing: 0.07em;
+  text-align: left;
+  text-transform: uppercase;
+  color: #757575;
+  margin: 0;
+}
+
+.text-head {
+  color: #1b1717;
+  font-weight: 900;
+  letter-spacing: 0.07em;
+  text-align: left;
+}
+
+.testimonialCont {
+  background-color: white;
+  padding: 20px 40px 20px 20px;
+}
+
+.testimonialPara {
+  color: #434343;
+}
+
+.testimonialName {
+  font-weight: 900;
+  margin: 0;
+  padding: 0;
+}
+
+.speciality {
+  margin: 0;
+  padding: 0;
+  font-weight: 700;
+  font-size: 14px;
+  letter-spacing: 0.1em;
+}
+
+.owl-item .testimonialCont {
+  background-color: #f4f4f4;
+}
+
+.center .testimonialCont {
+  background-color: #ffffff;
+  border: 1px solid #3367d6;
+}
+
+.contactUsCont {
+  width: 90%;
+  gap: 60px;
+  align-items: flex-start;
+}
+
+.imgContactUs {
+  width: 35%;
+}
+
+.contactMini {
+  font-weight: 900;
+  color: #757575;
+  letter-spacing: 0.07em;
+}
+
+.contactHead {
+  font-weight: 900;
+  color: #1b1717;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+}
+
+.contactCont {
+  width: 65%;
+}
+
+.input {
+  background: #f6f6f6;
+  border: 0;
+  height: 45px;
+  box-shadow: 1px 2px 8px 0px #cdcdcd26;
+}
+
+.textArea {
+  background: #f6f6f6;
+  border: 0;
+  height: 45px;
+  box-shadow: 1px 2px 8px 0px #cdcdcd26;
+}
+
+.label {
+  color: #c1c1c1;
+  font-weight: 400;
+  font-size: 14px;
+}
+
+.btn-login {
+  height: 40px;
+  width: 180px;
+  border-radius: 50px !important;
+  background-color: #3367d6;
+  color: #ffffff;
+}
+.headerText {
+  text-align: center;
+}
+textarea {
+  resize: none;
+}
+
+@media (max-width: 991.98px) {
+  .img-cont {
+    height: 300px;
+  }
+  .textHead {
+    font-size: 16px;
+  }
+  .imgContactUs {
+    width: 50%;
+    margin: 0 auto;
+  }
+  .contactCont {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .contactUsCont {
+    flex-direction: column;
+  }
+}
+@media (max-width: 767.98px) {
+  .cardCont {
+    width: 80%;
+    flex-direction: column;
+  }
+  .card-about {
+    width: 100%;
+  }
+  @media (max-width: 767.98px) {
+    .imgContactUs {
+      width: 90%;
+    }
+  }
+}

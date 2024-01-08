@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style/style.css" />
+    <link rel="stylesheet" href="./style/events.css" />
+    <title>Events</title>
+  </head>
+  <body>
+    <div class="mainHeaderBg">
+      <div class="overlayBanner"></div>
+      <nav
+        class="d-none d-lg-block navbar navbar-expand-lg mainHeaderNavBar d-lg-flex"
+      >
+        <div class="container">
+          <div class="mainWidth">
+            <!-- Laptop Screen -->
+            <div class="d-flex justify-content-between">
+              <div>
+                <a class="navbar-brand" href="#">
+                  <img
+                    src="./assets/logo.svg"
+                    alt="Avatar Logo"
+                    style="width: 40px"
+                    class="rounded-pill"
+                  />
+                </a>
+              </div>
+              <div>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0 navBarItems">
+                    <li class="nav-item">
+                      <a
+                        class="nav-link active"
+                        aria-current="page"
+                        href="./index.html"
+                        >HOME</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link navBarLink" href="./aboutUs.html"
+                        >ABOUT</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./Donation.html">DONATION</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./events.html">EVENTS</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./items.html">ITEM</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="volunteer.html">VOLUNTEER</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="contactUs.html">CONTACT</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div>
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+                  <div class="d-flex gap-3">
+                    <div class="d-flex justify-content-end">
+                      <button
+                        type="button"
+                        class="btn btnHomeSignup d-flex justify-content-around align-items-center"
+                      >
+                        <span class="fw-semibold">SIGNUP</span>
+                        <img
+                          class="icon-btn"
+                          src="./assets/forward.svg"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                    <div class="d-flex justify-content-end">
+                      <button
+                        type="button"
+                        class="btn btnHomeLogin d-flex justify-content-around align-items-center"
+                      >
+                        <span class="fw-semibold">LOGIN</span>
+                        <img
+                          class="icon-btn"
+                          src="./assets/forward.svg"
+                          alt=""
+                        />
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <!-- Mobile Screen  -->
+      <div class="d-block d-lg-none container">
+        <div class="mainWidth">
+          <header class="header">
+            <div>
+              <a class="navbar-brand position-relative" href="#">
+                <img
+                  src="./assets/logo.svg"
+                  alt="Avatar Logo"
+                  style="width: 40px"
+                  class="rounded-pill"
+                />
+              </a>
+            </div>
+            <div class="menu-btn">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+            </div>
+          </header>
+          <div class="header__nav">
+            <nav class="navv">
+              <ul
+                style="padding-left: 30px; padding-top: 30px"
+                class="navbar-nav me-auto mb-2 mb-lg-0 navBarItems"
+              >
+                <li class="nav-item-res">
+                  <a
+                    class="nav-link active"
+                    aria-current="page"
+                    href="./index.html"
+                    >HOME</a
+                  >
+                </li>
+                <li class="nav-item-res">
+                  <a class="nav-link" href="./aboutUs.html">ABOUT</a>
+                </li>
+                <li class="nav-item-res">
+                  <a class="nav-link" href="./Donation.html">DONATION</a>
+                </li>
+                <li class="nav-item-res">
+                  <a class="nav-link" href="./events.html">EVENTS</a>
+                </li>
+                <li class="nav-item-res">
+                  <a class="nav-link" href="./items.html">ITEM</a>
+                </li>
+                <li class="nav-item-res">
+                  <a class="nav-link" href="volunteer.html">VOLUNTEER</a>
+                </li>
+                <li class="nav-item-res">
+                  <a class="nav-link" href="contactUs.html">CONTACT</a>
+                </li>
+
+                <button
+                  type="button"
+                  class="btn btnHomeSignup d-flex justify-content-around align-items-center ps-3 pe-1 mt-3"
+                >
+                  <span class="fw-semibold">SIGNUP</span>
+                  <img class="icon-btn" src="./assets/forward.svg" alt="" />
+                </button>
+                <button
+                  type="button"
+                  class="btn btnHomeLogin d-flex justify-content-around align-items-center ps-3 pe-1 mt-3"
+                >
+                  <span class="fw-semibold">LOGIN</span>
+                  <img class="icon-btn" src="./assets/forward.svg" alt="" />
+                </button>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="container mainHeaderBanner">
+        <div class="mainWidth">
+          <div class="headerTextSetting">
+            <div class="headerText">
+              <h1>EVENTS</h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="mainWidth">
+        <div class="row justify-content-around cardContainer">
+          <div class="col-lg-4 col-md-6">
+            <div class="card cardBg">
+              <img
+                src="./assets/peopleHelping.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body cardBody">
+                <p class="cardParaBM">18-02-2024</p>
+                <h4 class="card-title cardTextHeading">EVENT NAME</h4>
+                <p class="card-text cardText">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card cardBg">
+              <img
+                src="./assets/blackShirtBoy.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body cardBody">
+                <p class="cardParaBM">18-02-2024</p>
+                <h4 class="card-title cardTextHeading">EVENT NAME</h4>
+                <p class="card-text cardText">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card cardBg">
+              <img
+                src="./assets/greenPackets.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body cardBody">
+                <p class="cardParaBM">18-02-2024</p>
+                <h4 class="card-title cardTextHeading">EVENT NAME</h4>
+                <p class="card-text cardText">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card cardBg">
+              <img
+                src="./assets/classStudent.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body cardBody">
+                <p class="cardParaBM">18-02-2024</p>
+                <h4 class="card-title cardTextHeading">EVENT NAME</h4>
+                <p class="card-text cardText">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card cardBg">
+              <img
+                src="./assets/peopleMeeting.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body cardBody">
+                <p class="cardParaBM">18-02-2024</p>
+                <h4 class="card-title cardTextHeading">EVENT NAME</h4>
+                <p class="card-text cardText">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="card cardBg">
+              <img
+                src="./assets/peopleExperimenting.svg"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body cardBody">
+                <p class="cardParaBM">18-02-2024</p>
+                <h4 class="card-title cardTextHeading">EVENT NAME</h4>
+                <p class="card-text cardText">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="mainWidth">
+        <div class="d-flex joinUsWidth">
+          <div class="joinUs">
+            <div class="joinUsText">
+              <h4>JOIN US</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+              <a href="./login.html">
+                <img
+                  src="./assets/forwardIcon.svg"
+                  alt="Forward Arrow"
+                  class="lastArrow"
+                />
+              </a>
+            </div>
+          </div>
+          <div class="joinUs">
+            <div class="joinUsText">
+              <h4>CONTACT US</h4>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit
+                tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.
+              </p>
+              <a href="./contactUs.html">
+                <img
+                  src="./assets/forwardIcon.svg"
+                  alt="Forward Arrow"
+                  class="lastArrow"
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer  -->
+
+    <div class="container-fluid footerBg">
+      <p>Terms and Conditions & Privacy Policy</p>
+    </div>
+    <script src="./script.js"></script>
+  </body>
+</html>
